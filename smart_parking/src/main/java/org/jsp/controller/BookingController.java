@@ -2,6 +2,7 @@ package org.jsp.controller;
 
 import java.util.List;
 
+
 import org.jsp.dto.Booking;
 import org.jsp.service.BookingService;
 
@@ -12,7 +13,6 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/bookings")
-@CrossOrigin(origins = "http://localhost:5173")
 public class BookingController {
 
     @Autowired
