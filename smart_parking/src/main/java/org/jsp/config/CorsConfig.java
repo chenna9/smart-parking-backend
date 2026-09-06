@@ -18,7 +18,7 @@ public class CorsConfig {
 
                 registry.addMapping("/**")
                         .allowedOrigins("http://localhost:5173",
-                        		"https://smart-parking-frontend-vert.vercel.app/")
+                        		"https://smart-parking-frontend-vert.vercel.app")
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*");
             }
